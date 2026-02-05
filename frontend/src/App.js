@@ -353,8 +353,8 @@ const GallerySection = () => {
     { src: HERO_BG, alt: "Barbers at work", span: "col-span-2 row-span-2" },
     { src: SHOP_INTERIOR, alt: "Shop interior", span: "col-span-1 row-span-1" },
     { src: STOREFRONT, alt: "Storefront at night", span: "col-span-1 row-span-1" },
-    { src: "https://images.unsplash.com/photo-1643837832861-ba85d3b046d9?w=600", alt: "Haircut detail", span: "col-span-1 row-span-1" },
-    { src: "https://images.unsplash.com/photo-1544215897-e4a5eeae9cc1?w=600", alt: "Barber tools", span: "col-span-1 row-span-1" },
+    { src: HAIRCUT_DETAIL, alt: "Haircut detail", span: "col-span-1 row-span-1" },
+    { src: BARBER_TOOLS, alt: "Barber tools", span: "col-span-1 row-span-1" },
   ];
 
   return (
