@@ -2,11 +2,13 @@ import { useEffect, useState, useRef } from "react";
 import "@/App.css";
 import { Phone, MapPin, Clock, Scissors, ChevronDown, Menu, X } from "lucide-react";
 
-// Assets
-const LOGO = "https://customer-assets.emergentagent.com/job_a9c16628-be94-4a57-9ae2-9c7dbe472c15/artifacts/egb8u8s9_logo-1.png";
-const HERO_BG = "https://customer-assets.emergentagent.com/job_a9c16628-be94-4a57-9ae2-9c7dbe472c15/artifacts/5v54j1oa_Dade-in-photo-2.jpg";
-const SHOP_INTERIOR = "https://customer-assets.emergentagent.com/job_a9c16628-be94-4a57-9ae2-9c7dbe472c15/artifacts/tc3ymkt1_Dade-in-photo-3.jpg";
-const STOREFRONT = "https://customer-assets.emergentagent.com/job_a9c16628-be94-4a57-9ae2-9c7dbe472c15/artifacts/s8j8f3fd_Fade-in-photo-in-front.webp";
+// Assets (local)
+const LOGO = "/assets/logo.png";
+const HERO_BG = "/assets/shop-interior-1.jpg";
+const SHOP_INTERIOR = "/assets/shop-interior-2.jpg";
+const STOREFRONT = "/assets/storefront.webp";
+const HAIRCUT_DETAIL = "/assets/haircut-detail.jpg";
+const BARBER_TOOLS = "/assets/barber-tools.jpg";
 
 // Business Info
 const PHONE = "773-685-7744";
