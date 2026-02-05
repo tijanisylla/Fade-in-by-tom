@@ -208,7 +208,7 @@ const HeroSection = () => {
           <a
             href="#services"
             data-testid="hero-services-btn"
-            className="border border-barber-gold text-barber-gold hover:bg-barber-gold hover:text-barber-black font-oswald uppercase tracking-wider px-8 py-4 text-lg transition-colors duration-300"
+            className="border-2 border-barber-gold text-barber-gold hover:bg-barber-gold hover:text-barber-black font-oswald uppercase tracking-wider px-8 py-4 text-lg transition-colors duration-300"
           >
             View Services
           </a>
@@ -245,7 +245,6 @@ const AboutSection = () => {
                 className="w-full h-auto rounded-sm gallery-image"
                 data-testid="about-image"
               />
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-barber-gold/40 rounded-sm" />
             </div>
           </div>
 
